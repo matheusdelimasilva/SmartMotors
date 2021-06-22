@@ -1,4 +1,22 @@
+/*
+    Training the motor:
+    1) Adjust the potentiometer to rotate the servo to the desired angle.
+    2) Press the button to store this angle. It will associate it to the 
+    brightness read by the light sensor. 
+    3) Repeat steps 1 and 2 for 10 times to create 10 training datapoints. 
+    4) When finished training, a message will be printed to the Serial Monitor
+    5) The motor will enter run mode. It will rotate based on the training 
+    brightness. 
+*/
+
+//The Servo library is required for this program to run.
 #include<Servo.h>
+
+/*-------------------------------------------------------------------
+
+CHANGE THE VARIABLES BELOW TO THE PINS YOU ARE USING IN YOUR SETUP.
+
+---------------------------------------------------------------------*/ 
 
 int servoPin =4; 
 int sensorPin = A0;
