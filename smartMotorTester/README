@@ -1,0 +1,15 @@
+----------------------------------------------------------------------
+|                    SMART MOTORS: Setup testing program             |
+| Matt Silva                                                         |
+| 06/16/21                                                           |
+----------------------------------------------------------------------
+
+                           ---- PURPOSE ----
+    Simple test program for the smart motor. Run it when the servo, light
+    sensor, potentiometer, buzzer and button are connected to the Arduino. 
+    It will print the sensor's readings to Serial Monitor to check if all 
+    those are working and properly connected. 
+
+    Change the servoPin, sensorPin, buzzerPin, lightPin and button variables on
+    smartMotorTester.ino to match the pins used in your setup. Then upload it
+    to your Arduino and check the Serial Monitor. 
