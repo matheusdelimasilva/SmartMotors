@@ -18,10 +18,11 @@ CHANGE THE VARIABLES BELOW TO THE PINS YOU ARE USING IN YOUR SETUP.
 
 ---------------------------------------------------------------------*/ 
 
-int servoPin =4; 
+int servoPin =7; 
+int LEDPin =3; 
 int sensorPin = A0;
 int buzzerPin= 5;
-int lightPin = A5;
+int lightPin = A6;
 const int button = 6;
 
 Servo Servo1; 
