@@ -15,16 +15,16 @@ CHANGE THE VARIABLES BELOW TO THE PINS YOU ARE USING IN YOUR SETUP.
 ---------------------------------------------------------------------*/ 
 
 //Defines the pin the servo is connected to.
-int servoPin = 4;
+int servoPin = 7;
 
 //Defines the pin the potentiometer is connected to.
-int sensorPin = A4;
+int sensorPin = A0;
 
 //Defines the pin the buzzer is connected to.
 int buzzerPin= 5;
 
 //Defines the pin the light sensor is connected to.
-int lightPin = A5;
+int lightPin = A6;
 
 //Defines the pin the button is connected to.
 const int button = 6;
